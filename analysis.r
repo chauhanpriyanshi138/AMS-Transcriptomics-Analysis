@@ -43,8 +43,8 @@ results <- data.frame(
 
 head(results)
 
-upregulated <- subset(results, logFC > 1)
-downregulated <- subset(results, logFC < -1)
+upregulated <- subset(results, logFC > 0)
+downregulated <- subset(results, logFC < 0)
 
 # Check counts
 nrow(upregulated)
