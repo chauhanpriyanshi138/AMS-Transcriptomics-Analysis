@@ -37,7 +37,7 @@ This reflects a common challenge in transcriptomic data analysis, where threshol
 
 ## Results
 - Identified approximately:
-  ~19,800 upregulated genes
+  ~19,800 upregulated genes;
   ~19,600 downregulated genes
 - Generated distribution plot of log fold change
 - Created heatmap of top 50 most variable genes
